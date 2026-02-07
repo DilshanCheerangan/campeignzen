@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #faf9f7;
+  --foreground: #1a1a1a;
+
+  /* Zen Stone palette */
+  --zen-stone-50: #faf9f7;
+  --zen-stone-100: #f5f3ef;
+  --zen-stone-200: #e8e4dd;
+  --zen-stone-300: #d4cec4;
+  --zen-stone-400: #b8b0a2;
+  --zen-stone-500: #9c9283;
+  --zen-stone-600: #7d7365;
+  --zen-stone-700: #5e554a;
+  --zen-stone-800: #3f3932;
+  --zen-stone-900: #1f1c19;
+
+  /* Accent colors */
+  --zen-accent: #2563eb;
+  --zen-accent-hover: #1d4ed8;
+  --zen-accent-muted: #93c5fd;
+  --zen-accent-subtle: #eff6ff;
+
+  --zen-coral: #f97316;
+  --zen-coral-muted: #fed7aa;
+
+  --zen-violet: #7c3aed;
+  --zen-violet-muted: #c4b5fd;
+
+  /* Shadows */
+  --shadow-soft: 0 1px 3px rgba(0, 0, 0, 0.06);
+  --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-elevated: 0 8px 24px rgba(0, 0, 0, 0.12);
+  --shadow-glow: 0 0 20px rgba(37, 99, 235, 0.15);
+
+  /* Transitions */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --duration-fast: 150ms;
+  --duration-normal: 250ms;
+  --duration-smooth: 400ms;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
