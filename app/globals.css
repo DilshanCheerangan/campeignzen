@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #fafaf9;
+  --foreground: #1c1917;
+
+  --zen-stone-50: #fafaf9;
+  --zen-stone-100: #f5f5f4;
+  --zen-stone-200: #e7e5e4;
+  --zen-stone-300: #d6d3d1;
+  --zen-stone-400: #a8a29e;
+  --zen-stone-500: #78716c;
+  --zen-stone-600: #57534e;
+  --zen-stone-700: #44403c;
+  --zen-stone-800: #292524;
+  --zen-stone-900: #1c1917;
+
+  --zen-accent: #0d9488;
+  --zen-accent-hover: #0f766e;
+  --zen-accent-muted: #99f6e4;
+  --zen-accent-subtle: #ccfbf1;
+
+  --zen-coral: #f97316;
+  --zen-coral-muted: #fed7aa;
+
+  --zen-violet: #7c3aed;
+  --zen-violet-muted: #c4b5fd;
+
+  --shadow-soft: 0 1px 3px 0 rgb(0 0 0 / 0.05);
+  --shadow-card: 0 4px 6px -1px rgb(0 0 0 / 0.07), 0 2px 4px -2px rgb(0 0 0 / 0.05);
+  --shadow-elevated: 0 10px 15px -3px rgb(0 0 0 / 0.08), 0 4px 6px -4px rgb(0 0 0 / 0.04);
+  --shadow-glow: 0 0 20px rgb(13 148 136 / 0.15);
+
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  --duration-fast: 150ms;
+  --duration-normal: 250ms;
+  --duration-smooth: 400ms;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #1c1917;
+    --foreground: #fafaf9;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+}
